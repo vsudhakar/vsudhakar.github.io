@@ -24,7 +24,10 @@ body {
   flex: 0 0 auto;
 }
 
-
+.readable {
+  padding-left: 1%;
+  text-align: left;
+}
 
 .main-footer {
   background: #7BAFD4;
