@@ -44,3 +44,24 @@ body {
   flex: 1 1 auto;
   min-width: 400px;
 }
+
+.jesse-akes {
+  position: relative;
+}
+
+.centered-img-txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 23px;
+    color: white;
+    text-transform: uppercase;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  //display: block;
+  margin: auto;
+}
