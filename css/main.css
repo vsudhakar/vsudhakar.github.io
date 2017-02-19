@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Cutive Mono', monospace;
+}
+
+body {
+  font-size: 1.2em;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  text-align: center;
+}
+
+.row {
+  flex: 1 1 auto;
+  background: white;
+  display: flex;
+}
+
+.main-header {
+  background: black;
+  color: white;
+  flex: 0 0 auto;
+}
+
+.readable {
+  padding-left: 1%;
+  text-align: left;
+}
+
+.main-footer {
+  background: #7BAFD4;
+  flex: 0 0 auto;
+}
+
+.primary-sidebar {
+  background: turquoise;
+  flex: 0 0 auto;
+  width: 20%;
+}
+
+.content {
+  flex: 1 1 auto;
+  min-width: 400px;
+}
+
+.jesse-akes {
+  position: relative;
+}
+
+.centered-img-txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 23px;
+    color: white;
+    text-transform: uppercase;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  //display: block;
+  margin: auto;
+}
