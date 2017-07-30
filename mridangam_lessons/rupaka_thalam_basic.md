@@ -67,5 +67,5 @@ Tham, Kitathaka Num Thom Din,
 **Thakadina**
 
 *Notes*
-* Thakadina played as **Num Thom Thom Dhi*
+* Thakadina played as **Num Thom Thom Dhi**
 * Thalan,gu Thom Ka played as **Tha Chapu Dhi Thom Dhi**
