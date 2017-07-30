@@ -62,9 +62,9 @@ Tham, Kitathaka Num Thom Din,
 
 **Thalangu, Thakadina Tham,**
 
-**        Thakadina Tham,**
+**Thakadina Tham,**
 
-**        Thakadina**
+**Thakadina**
 
 *Notes*
 * Thakadina played as **Num Thom Thom Dhi*
