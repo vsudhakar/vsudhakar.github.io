@@ -30,6 +30,9 @@
 
 ## Relevant Coursework
 
+* CS 2106: Operating Systems - Fall 2017
+* CS 2105: Networks - Fall 2017
+* CS 2103: Software Engineering - Fall 2017
 * COMPSCI 270: Introduction to Artificial Intelligence - Spring 2016
 * MATH 361S: Numerical Analysis (Seminar) - Spring 2016
 * COMP 541: Digital Logic & Computer Design - Fall 2016
