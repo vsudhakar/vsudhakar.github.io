@@ -62,7 +62,12 @@ function sync() {
     beat1_group.addSound(tap_sound)
     // Play sounds
     if (effectOn) {
+        beat1_group.removeEffect(lowPassFilter)
         beat1_group.addEffect(lowPassFilter)
+        console.log("adding effect")
+    } else {
+        beat1_group.removeEffect(lowPassFilter)
+        console.log("removing effect")
     }
     beat1_group.play()
     // After group sounds are played, remove sounds from group for reuse
@@ -71,9 +76,6 @@ function sync() {
         beat1_group.removeSound(shortBoom_sound)
         beat1_group.removeSound(midLah_sound)
         beat1_group.removeSound(tap)
-        if (effectOn) {
-            beat1_group.removeEffect(lowPassFilter)
-        }
     })
 }
 
@@ -81,7 +83,12 @@ function sync2() {
     beat2_group.addSound(lowLah_sound)
     beat2_group.addSound(highLah_sound)
     if (effectOn) {
+        beat2_group.removeEffect(lowPassFilter)
         beat2_group.addEffect(lowPassFilter)
+        console.log("adding effect")
+    } else {
+        beat2_group.removeEffect(lowPassFilter)
+        console.log("removing effect")
     }
     beat2_group.play()
     beat2_group.on('end', function() {
@@ -100,7 +107,12 @@ function sync3() {
     beat3_group.addSound(highGoodBeb_sound)
     beat3_group.addSound(uwu_sound)
     if (effectOn) {
+        beat3_group.removeEffect(lowPassFilter)
         beat3_group.addEffect(lowPassFilter)
+        console.log("adding effect")
+    } else {
+        beat3_group.removeEffect(lowPassFilter)
+        console.log("removing effect")
     }
     beat3_group.play()
     beat3_group.on('end', function() {
