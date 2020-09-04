@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <title>Mouth Noises 3 - Brewer Booaglo</title>
+        <!-- Import Pizzicato for Audio -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pizzicato/0.6.4/Pizzicato.min.js"></script>
+        <!-- Import HowlerJS for Audio -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.0/howler.min.js"></script>
+        <!-- Import Scripts for Sampling -->
+    </head>
+
+    <body bgcolor="turquoise">
+	<div class='container'>
+        <h1>Mouth Noises 3.0 Brewer Booaglo</h1>
+	<div id="loading-bar">
+	</div>
+        <div id="filters" style="visibility:hidden">
+          <h3 id="effect-toggle-status">Lo-Fi Effect Off</h3>
+          <a class='btn' onclick="toggleEffect()">Change that ^^ !</a>
+          <hr>
+        </div>
+	<div id="sound-room" style="visibility:hidden">
+          <h3>Noises</h3>
+	</div>
+        <div id="sequencer" style="visibility:hidden">
+          <!--<h3>Sequencer</h3>
+          <div class="row">
+            <a class="btn" onclick="play_sequenced()">Play</a>
+            <a class="btn" onclick="pause_sequenced()">Pause</a>
+            <a class="btn" onclick="stop_sequenced()">Stop</a>
+            <a class="btn" onclick="add_sequence_box()">Add Segment</a>
+            <a class="btn" onclick="clear_sequenced()">Clear</a>
+
+            <p>Sequencing: <span id="sequencing"></span></p>
+
+            <table class="striped">
+            <thead>
+               <tr> <th>Segment</th> <th>Components</th> <th></th>
+            </thead>
+            <tbody id="sequence">
+            </tbody>
+            </table>
+
+          </div>-->
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
