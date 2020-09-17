@@ -37,7 +37,7 @@
             
         </a>
         
-        <a href="/aimless-projects/index.html" class="side-menu-item  side-menu-item-active ">
+        <a href="/aimless-projects/index.html" class="side-menu-item ">
             Aimless Projects
         </a>
         
@@ -53,7 +53,7 @@
             
         </a>
         
-        <a href="/static-things/mouth-noises-2/app.html" class="side-menu-item ">
+        <a href="/static-things/mouth-noises-2/app.html" class="side-menu-item  side-menu-item-active ">
             
         </a>
         
@@ -104,67 +104,82 @@
                 
 </aside>
                     <aside class='content'>
-                        <div>
-    Aimless Projects
-        
-    
-        <div class="feed">
-            <div class="card">
-                <card-header>
-                    <h3 class="title">
-                        Casper
-                    </h3>
-                    <h3 class="date">
-                        March 15th 2018
-                    </h3>
-                </card-header>
-                <p>
-                    Steve Jobs famously said that thing about how styluses are terrible, and then every device became electronic finger food. Enter Casper, a library for touch based Android control and automation via the ADB shell. Casper provides both a scaffold for basic app interactions in Android as well as a feature based detection system to determine appropriate actions on unfamiliar app screens. Casper is, however, very much still a work in progress. Check out the code on GitHub.
-                </p>
-                
-                    <a href='http://visonthe.net/casper'>Try it out!</a>
-                    
-            </div>
-        </div>
-        
-        <div class="feed">
-            <div class="card">
-                <card-header>
-                    <h3 class="title">
-                        Mouth Noises v2
-                    </h3>
-                    <h3 class="date">
-                        July 24th 2020
-                    </h3>
-                </card-header>
-                <p>
-                    Back at it again with the mouth noises!
-                </p>
-                
-                    <a href='http://visonthe.net/mouth-noises-2/app.html'>Try it out!</a>
-                    
-            </div>
-        </div>
-        
-        <div class="feed">
-            <div class="card">
-                <card-header>
-                    <h3 class="title">
-                        Mouth Noises
-                    </h3>
-                    <h3 class="date">
-                        January 28th 2019
-                    </h3>
-                </card-header>
-                <p>
-                    Come make mouth noises for fun and for joy.
-                </p>
-                
-                    <a href='http://visonthe.net/mouthnoises.html'>Try it out!</a>
-                    
-            </div>
-        </div>
-        
+                        <div class="post">
+    <div class="readable">
+        <html>
+    <head>
+        <title>Mouth Noises 2 || Sampler</title>
+        <!-- Import Pizzicato for Audio -->
+        <script src="pizzicato.min.js"></script>
+        <!-- Import HowlerJS for Audio -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.0/howler.min.js"></script>
+        <!-- Import Scripts for Sampling -->
+        <script src="app.js"></script>
+    </head>
+
+    <body bgcolor="turquoise">
+        <h1>Mouth Noises 2.0 - Sampler</h1>
+        <h2 id="effect-toggle-status">Lo-Fi Effect Off</h2>
+        <button onclick="toggleEffect()">Change that ^^ !</button>
+        <hr>
+        <b>Parity:</b>
+        <br>
+        <button onclick="playLongBoom()">
+            Long Boom
+        </button>
+        <button onclick="playShortBoom()">
+            Short Boom
+        </button>
+        <button onclick="playMidLah()">
+            Mid Lah
+        </button>
+        <button onclick="playTap()">
+            Tap
+        </button>
+        <br>
+        <button onclick="sync()">
+            All together now!
+        </button>
+        <hr>
+        <b>V2 New Arrivals:</b>
+        <br>
+        <button onclick="highLah_sound.play()">
+            High Lah
+        </button>
+        <button onclick="lowLah_sound.play()">
+            Low Lah
+        </button>
+        <br>
+        <button onclick="sync2()">
+            All together now!
+        </button>
+        <br>
+        <p>-----------------------------</p>
+        <i>The Brewer Collection</i>
+        <br>
+        <button onclick="aha_sound.play()">
+            Aha
+        </button>
+        <button onclick="aoustynWayne_sound.play()">
+            aOuStYn WaYnE
+        </button>
+        <button onclick="goodBeb_sound.play()">
+            Good Beb!
+        </button>
+        <button onclick="highGoodBeb_sound.play()">
+            Good Beb! [High]
+        </button>
+        <button onclick="uwu_sound.play()">
+            uWu
+        </button>
+        <br>
+        <button onclick="sync3()">
+            All together now!
+        </button>
+        <hr>
+    </body>
+</html>
+    </div>
 </div>
                     </aside>
             </div>
