@@ -20,8 +20,24 @@ header .date {
     border-radius: 20px;
     border-width: 2px;
     border-style: solid;
-    padding: 20px;
+    /* padding: 20px; */
     border-color: #6269e5;
-    min-height: 80%;
+    /* min-height: 80%; */
     margin: 10px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Image Styling */
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
