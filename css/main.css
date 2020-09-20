@@ -36,11 +36,13 @@ body {
 }
 
 .card {
-    max-width: 100%;
+    /* max-width: 100%; */
+    display: flex;
+    flex-direction: column;
     border-radius: 20px;
     border-width: 2px;
     border-style: solid;
-    padding: 20px;
+    padding: 2%;
     border-color: #6269e5;
     text-align: left;
 }
@@ -56,8 +58,10 @@ body {
     border-style: solid;
     border-color: #6269e5;
     border-width: 1px;
-    padding: 5px;
-    margin-left: 80%;
+    padding: 1%;
+    max-width: 50%;
+    align-self: flex-end;
+    /* margin-left: 80%; */
 }
 
 .card a:hover {
@@ -76,7 +80,9 @@ body {
 .primary-sidebar {
     background: #62aae5;
     flex: 0 0 auto;
-    width: 20%;
+    /* width: 20%; */
+    /* flex-grow: 1; */
+    flex-basis: 20%;
 }
 
 .side-menu-item {
@@ -110,9 +116,10 @@ body {
 
 .content {
     flex: 1 1 auto;
-    min-width: 400px;
+    /* min-width: 400px; */
     display: flex;
     flex-direction: column;
+    /* flex-grow: 5; */
 }
 
 .jesse-akes {
@@ -141,4 +148,126 @@ pre {
     border: 1px solid #999;
     display: block;
     padding: 10px;
+}
+
+.header-link {
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+}
+
+
+/* CSS Mobile Optimization */
+
+.float {
+    display: none;
+    position: fixed;
+    width: 120px;
+    height: 120px;
+    bottom: 120px;
+    right: 40px;
+    background-color: #62aae5;
+    /* color: #FFF; */
+    border-radius: 50px;
+    text-align: center;
+    /* box-shadow: 2px 2px 3px #999; */
+}
+
+.mobile-sidebar {
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    left: 0;
+    background-color: #62aae5;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.mobile-sidebar .side-menu-item {
+    /* padding: 8px 8px 8px 32px; */
+    /* text-decoration: none; */
+    font-size: 3.6em;
+    width: auto !important;
+    /* color: #818181; */
+    /* display: block; */
+    transition: 0.3s;
+}
+
+.mobile-sidebar .side-menu-item:active {
+    font-weight: bolder;
+    background: #5690e2;
+}
+
+.menu-bar-icon-container {
+    margin: 42px;
+}
+
+.menu-bar-icon {
+    width: 20px;
+    height: 5px;
+    padding-left: 10px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+.mobile-sidebar .closebtn {
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 3em;
+    margin-left: 50px;
+}
+
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    .primary-sidebar {
+        display: none;
+    }
+    p {
+        font-size: 2em;
+    }
+    h1 {
+        font-size: 5em;
+    }
+    h2 {
+        font-size: 4em;
+    }
+    h3 {
+        font-size: 3em;
+    }
+    card-header {
+        flex-direction: column !important;
+    }
+    card-header .date {
+        font-size: 2em;
+        font-weight: bolder;
+    }
+    .card a {
+        font-size: 2em;
+        align-self: center;
+    }
+    .header-link {
+        font-size: 5em;
+    }
+    .float {
+        display: initial;
+    }
+    .main-footer {
+        font-size: 1.7em;
+    }
 }

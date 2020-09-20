@@ -22,19 +22,42 @@
         ga('send', 'pageview');
     </script>
 <meta name="generator" content="Hexo 5.1.1"></head>
+    <script>
+    function showSidebar() {
+        document.getElementById("mobile-nav").style.width = "50%";
+    }
 
-    <body>
-        <header class="main-header">
-    <h1>VisOnTheNet - Thoughts and musings</h1>
+    function closeNav() {
+        document.getElementById("mobile-nav").style.width = "0";
+    }
+</script>
+
+<button onclick="showSidebar()" class="float">
+    <div class="menu-bar-icon-container">
+        <div class="menu-bar-icon"></div>
+        <div class="menu-bar-icon"></div>
+        <div class="menu-bar-icon"></div>
+    </div>
+</button>
+
+        <body>
+            <header class="main-header">
+    <a href="/" class="header-link">
+            VisOnTheNet - Thoughts and musings
+    </a>
 </header>
-            <div class='row'>
-                <aside class="primary-sidebar">
+                <div class='row'>
+                    <aside class="primary-sidebar">
     <a href="/" class="side-menu-item ">
         Home
     </a>
-    
+    <!-- 
         <a href="/static-things/notes/techstacks2019.html" class="side-menu-item ">
             
+        </a>
+        
+        <a href="/photography-blog/index.html" class="side-menu-item ">
+            Photography Blog
         </a>
         
         <a href="/aimless-projects/index.html" class="side-menu-item ">
@@ -92,19 +115,126 @@
         <a href="/static-things/mouth-noises-2/pizzicato.min.js" class="side-menu-item ">
             
         </a>
+         -->
+    
         
             
-                <a target="_blank" rel="noopener" href="https://www.instagram.com/16southphoto/" class="side-menu-item">
-                    16 South Photos
+                <a href="/aimless-projects/index.html" class="side-menu-item">
+                    Aimless Projects
                 </a>
                 
-                <a target="_blank" rel="noopener" href="https://github.com/vsudhakar" class="side-menu-item">
-                    GitHub
+        
+            
+                <a href="/photography-blog/index.html" class="side-menu-item">
+                    Photography Blog
                 </a>
                 
+                    
+                        <a target="_blank" rel="noopener" href="https://www.instagram.com/16southphoto/" class="side-menu-item">
+                            16 South Photos
+                        </a>
+                        
+                        <a target="_blank" rel="noopener" href="https://github.com/vsudhakar" class="side-menu-item">
+                            GitHub
+                        </a>
+                        
 </aside>
-                    <aside class='content'>
-                        <div class="post">
+
+<aside class="mobile-sidebar" id="mobile-nav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="/" class="side-menu-item ">
+        Home
+    </a>
+    <!-- 
+        <a href="/static-things/notes/techstacks2019.html" class="side-menu-item ">
+            
+        </a>
+        
+        <a href="/photography-blog/index.html" class="side-menu-item ">
+            Photography Blog
+        </a>
+        
+        <a href="/aimless-projects/index.html" class="side-menu-item ">
+            Aimless Projects
+        </a>
+        
+        <a href="/static-things/birthdays/jesse.html" class="side-menu-item ">
+            
+        </a>
+        
+        <a href="/static-things/birthdays/mohamed.html" class="side-menu-item ">
+            
+        </a>
+        
+        <a href="/static-things/fun/llama.html" class="side-menu-item ">
+            
+        </a>
+        
+        <a href="/static-things/mouth-noises-2/app.html" class="side-menu-item ">
+            
+        </a>
+        
+        <a href="/static-things/mouth-noises-2/app.js" class="side-menu-item ">
+            
+        </a>
+        
+        <a href="/static-things/notes/csclubtalk-feb19.html" class="side-menu-item ">
+            
+        </a>
+        
+        <a href="/static-things/notes/index.html" class="side-menu-item ">
+            
+        </a>
+        
+        <a href="/static-things/professional/resume.html" class="side-menu-item ">
+            
+        </a>
+        
+        <a href="/static-things/wtf/politics.html" class="side-menu-item  side-menu-item-active ">
+            
+        </a>
+        
+        <a href="/static-things/wtf/security.html" class="side-menu-item ">
+            
+        </a>
+        
+        <a href="/static-things/notes/css/main.css" class="side-menu-item ">
+            
+        </a>
+        
+        <a href="/static-things/notes/css/readable.css" class="side-menu-item ">
+            
+        </a>
+        
+        <a href="/static-things/mouth-noises-2/pizzicato.min.js" class="side-menu-item ">
+            
+        </a>
+         -->
+    
+        
+            
+                <a href="/aimless-projects/index.html" class="side-menu-item">
+                    Aimless Projects
+                </a>
+                
+        
+            
+                <a href="/photography-blog/index.html" class="side-menu-item">
+                    Photography Blog
+                </a>
+                
+                    
+                        <a target="_blank" rel="noopener" href="https://www.instagram.com/16southphoto/" class="side-menu-item">
+                            16 South Photos
+                        </a>
+                        
+                        <a target="_blank" rel="noopener" href="https://github.com/vsudhakar" class="side-menu-item">
+                            GitHub
+                        </a>
+                        
+</aside>
+                        <aside class='content'>
+                            <div class="post">
     <div class="readable">
         <!DOCTYPE html>
 <html>
@@ -119,8 +249,11 @@
 </html>
     </div>
 </div>
-                    </aside>
-            </div>
-    </body>
+                        </aside>
+                </div>
+                <footer class="main-footer">
+                    "All of us do not have equal talent. But, all of us have an equal opportunity to develop our talents." - Dr. APJ Abdul Kalam
+                </footer>
+        </body>
 
 </html>
