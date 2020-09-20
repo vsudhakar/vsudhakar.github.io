@@ -13,7 +13,7 @@ body {
 }
 
 .row {
-    flex: 1 1 auto;
+    flex: 1 0 auto;
     background: white;
     display: flex;
 }
@@ -71,7 +71,8 @@ body {
 
 .main-footer {
     background: #7BAFD4;
-    flex: 0 0 auto;
+    /* flex: 0 0 auto; */
+    flex-shrink: 0;
 }
 
 
@@ -267,7 +268,11 @@ pre {
     .float {
         display: initial;
     }
-    .main-footer {
+    /* .main-footer {
         font-size: 1.7em;
-    }
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 120px;
+    } */
 }
