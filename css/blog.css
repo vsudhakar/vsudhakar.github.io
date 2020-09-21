@@ -29,10 +29,14 @@ header .date {
     flex-direction: column;
 }
 
+.blogPostReadable p {
+    margin: 10px 5px 10px 5px;
+}
+
 
 /* Image Styling */
 
-img {
+.blogPostReadable img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -40,4 +44,16 @@ img {
     border-radius: 8px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.galleryImage {
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+.imageLink {
+    text-decoration: none !important;
+    border: none !important;
+    width: 50%;
+    padding: 0 !important;
 }
